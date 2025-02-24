@@ -6,6 +6,8 @@ import org.testng.annotations.Test;
 public class Sample {
 @Test
 public void launch() {
+		Reporter.log("Launch", true);
+
 	Reporter.log("Launch", true);
 }
 }
